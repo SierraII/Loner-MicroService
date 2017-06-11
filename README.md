@@ -29,7 +29,9 @@ If you would like access to the Google Cloud project, feel free to email me a gm
 - After starting the pod, the script log attempt to log the most recently created pod.
 
 ## Demo
-[![Alt text](https://img.youtube.com/vi/qjeXqvBRCL8/0.jpg)](https://youtu.be/qjeXqvBRCL8)
+<p align="center">
+    <a href="https://youtu.be/qjeXqvBRCL8"><img width="300" src="https://img.youtube.com/vi/qjeXqvBRCL8/0.jpg" alt=""/></a>
+</p>
 
 ## Setup and Requirements
 Install [node.js](https://nodejs.org/en/download/)  
