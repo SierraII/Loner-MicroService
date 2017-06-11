@@ -109,7 +109,8 @@ gulp.task("help", function(){
     console.log("\tstop\t\tStop deployment (application) on a project");
     console.log("\tlog\t\tLog deployment (application) on a project");
     console.log("\tscale\t\tScale deployment (application) on a project");
-    console.log("\tbuild\t\tBuild mono application\n");
+    console.log("\tbuild\t\tBuild mono application");
+    console.log("\tadmin\t\tStart Kubernetes admin server\n");
 
 });
 
