@@ -20,6 +20,12 @@ If you would like to run the application on your own Google Cloud project, place
 
 If you would like access to the Google Cloud project, feel free to email me a gmail address.
 
+## Demo
+Image redirects to Youtube:
+<p align="center">
+    <a href="https://youtu.be/qjeXqvBRCL8" target="_blank"><img width="300" src="https://img.youtube.com/vi/qjeXqvBRCL8/0.jpg" alt=""/></a>
+</p>
+
 ## Process and Deployment Information
 - The script first compiles the application vai mono.
 - Once the application has been built, the deployment script creates a docker file for the application and builds the Docker image.
@@ -27,11 +33,6 @@ If you would like access to the Google Cloud project, feel free to email me a gm
 - The deployment checks for any running deployment (applications) running within the project cluster and deletes the deployment (application) if it finds one with the relavent name.
 - The deployment (application) will then create a replica set set to create one single pod (which can be scaled up manually vai this deployment script). If any running process of this pod has changed, the pod will restart. More information on pods and replica-sets can be found <a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/">here</a>
 - After starting the pod, the script log attempt to log the most recently created pod.
-
-## Demo
-<p align="center">
-    <a href="https://youtu.be/qjeXqvBRCL8"><img width="300" src="https://img.youtube.com/vi/qjeXqvBRCL8/0.jpg" alt=""/></a>
-</p>
 
 ## Setup and Requirements
 Install [node.js](https://nodejs.org/en/download/)  
