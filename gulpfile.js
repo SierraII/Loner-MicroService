@@ -158,6 +158,8 @@ gulp.task("run", function(){
 // stop a deployment
 gulp.task("stop", function(){
 
+    gulp.start("get_environment");
+
     var host = settings.projects[selectedProject];
 
     heading("Stopping Deployment...");
@@ -185,6 +187,8 @@ gulp.task("show_pods", function(){
 
 // scale a pecific deployment
 gulp.task("scale", function(){
+
+    gulp.start("get_environment");
 
     heading("Scaling Deployable...");
 
@@ -257,6 +261,8 @@ gulp.task("push", function(){
 
 // tail the log of the first loggable pod of the deployment
 gulp.task("log", function(){
+
+    gulp.start("get_environment");
 
     heading("Getting Loggable Pods...");
 
