@@ -105,11 +105,11 @@ gulp.task("help", function(){
     console.log("\t-d\t Deployment specified from settings\n");
 
     console.log("Commands:");
-    console.log("\tdeploy\t\tDeploy application to project");
-    console.log("\tstop\t\tStop deployment (application) on project");
-    console.log("\tscale\t\tScale deployment (application) on project");
+    console.log("\tdeploy\t\tDeploy application to a project");
+    console.log("\tstop\t\tStop deployment (application) on a project");
+    console.log("\log\t\Log deployment (application) on a project");
+    console.log("\tscale\t\tScale deployment (application) on a project");
     console.log("\tbuild\t\tBuild mono application\n");
-
 
 });
 
