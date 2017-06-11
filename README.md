@@ -4,8 +4,8 @@ Automated Mono application deployment to Kubernetes.
 <p align="center">
     <br/>
     <img width = "200" src="https://www.gcppodcast.com//images/post/Kubernetes.png" alt=""/>
+    <img width = "200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2000px-Npm-logo.svg.png" alt="" style="margin:5px;"/>
      <img width = "200" src="https://www.programmableweb.com/sites/default/files/styles/large/public/Screen%20Shot%202014-07-18%20at%201.01.50%20PM.jpg?itok=eyGmmGGt" alt=""/>
-     <img width = "200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2000px-Npm-logo.svg.png" alt=""/>
     <br/>
     <br/>
     <img width = "200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt=""/>
