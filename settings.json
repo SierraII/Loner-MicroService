@@ -24,7 +24,7 @@
 
     "deployments": {
 
-        "csv-aggrigator": {
+        "csv": {
             "name": "csv-aggrigator",
             "registry": "loner/csv-aggrigator",
             "application": "loner"
