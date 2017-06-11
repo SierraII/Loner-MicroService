@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/SierraII/Loner-MicroService/issues"
   },
-  "homepage": "https://github.com/SierraII/Loner-MicroService#readme"
+  "homepage": "https://github.com/SierraII/Loner-MicroService#readme",
+  "dependencies": {
+    "gulp-open": "^2.0.0",
+    "jsonfile": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
