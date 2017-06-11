@@ -1,0 +1,35 @@
+{
+    "applications": {
+
+        "loner": {
+            "src": "./Loner/src/Loner",
+            "csv": "./Loner/src/loans.csv",
+            "dest": "/Release/",
+            "sln_path": "/Loner.sln",
+            "release": "/App.Loner/bin/Release",
+            "exe_file": "App.Loner.exe"
+        }
+
+    },
+
+    "projects": {
+
+        "loner": {
+            "project": "loner-170411",
+            "region": "europe-west1-b",
+            "cluster": "main-cluster"
+        }
+
+    },
+
+    "deployments": {
+
+        "csv-aggrigator": {
+            "name": "csv-aggrigator",
+            "registry": "loner/csv-aggrigator",
+            "application": "loner"
+        }
+
+    }
+
+}
